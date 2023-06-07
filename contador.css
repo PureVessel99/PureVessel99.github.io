@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  #valor-contador {
+    font-size: 24px;
+  }
+  
+  button {
+    margin: 5px;
+  }
+  
+  .reset-button {
+    background-color: #228B22;
+    color: white;
+  }
+
+  
+
+  img {
+    width: 900px;
+    height: 900px;
+    object-fit: cover;
+  }
+  
