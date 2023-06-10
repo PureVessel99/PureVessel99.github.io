@@ -15,7 +15,16 @@ body {
   
   button {
     margin: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
   }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
   
   .reset-button {
     background-color: #228B22;

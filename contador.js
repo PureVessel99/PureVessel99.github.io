@@ -1,7 +1,7 @@
 let contador = 0;
 
 function incrementar() {
-    if (contador < 6) {
+    if (contador < 20) {
       contador++;
       actualizarContador();
       actualizarImagen();
