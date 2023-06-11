@@ -30,11 +30,13 @@ function volverAZero() {
 function actualizarImagen() {
   let rutaImagen = "";
   if (contador >= 1 && contador <= 3) {
-    rutaImagen = "messi torres.jpeg";
+    rutaImagen = "mr-4.jpeg";
   } else if (contador >= 4 && contador <= 6) {
-    rutaImagen = "messi destruye francia.jpeg";
+    rutaImagen = "mr-2.jpeg";
+  } else if (contador >= 7 && contador <= 19) {
+    rutaImagen = "mr-5.jpeg";
   } else {
-    rutaImagen = "racist argentinians.jpeg";
+    rutaImagen = "mr-1.jpeg";
   }
   document.getElementById("imagen").src = rutaImagen;
 }
