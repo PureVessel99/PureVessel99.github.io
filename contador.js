@@ -33,7 +33,7 @@ function actualizarImagen() {
     rutaImagen = "mr-4.jpeg";
   } else if (contador >= 4 && contador <= 6) {
     rutaImagen = "mr-2.jpeg";
-  } else if (contador >= 7 && contador <= 19) {
+  } else if (contador >= 7 && contador <= 20) {
     rutaImagen = "mr-5.jpeg";
   } else {
     rutaImagen = "mr-1.jpeg";
